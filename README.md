@@ -7,15 +7,16 @@ Requirements
 ------------
 
 
-# default variables required
-# user name
+### default variables required
+### user name
+
 user_name: anishdefault
 
-# Default user state
+### Default user state
 
 user_state: present/absent
 
-# SSH key location
+### SSH key location
 
 ssh_key: /etc/ssh/ssh_host_rsa_key.pub
 
@@ -33,7 +34,8 @@ Example Playbook
 ----------------
 
 # Create a playbook with below parameters
----
+
+
 - hosts: vm
   tasks:
      - include_role:
